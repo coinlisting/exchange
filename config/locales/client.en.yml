@@ -1,0 +1,535 @@
+en:
+  js:
+    brand: GRAVIEX
+    submit: Submit
+    cancel: Cancel
+    confirm: Confirm
+    banks:
+      icbc: Industryand Commercial Bank of China
+      cbc: Construction Bank of China
+      bc: Bank of China
+      bcm: Bank of Communications
+      abc: Agriculture Bank of China
+      cmb: China Merchants Bank Ltd
+      cmbc: China Minsheng Banking Co., Ltd
+      cncb: China CITIC Bank
+      hxb: Hua Xia Bank Co., Ltd.
+      cib: Industrial Bank Co., Ltd
+      spdb: Shanghai Pudong Development Bank
+      bob: Bank of Beijing
+      ceb: China Everbright Bank CO.LTD
+      sdb: Shenzhen Development Bank
+      pab: Ping An Bank Co., Ltd.
+      gdb: Guangdong Development Bank
+      psbc: Postal Savings Bank of China
+      bos: Bank of Shanghai
+    fund_sources:
+      manage_bank_account: Bank Account Management
+      manage_bank_account_desc: To facilitate the choice of bank withdrawals address
+      manage_coin_address: Coin Address Management
+      manage_coin_address_desc: To facilitate the choice of coin withdrawals address
+      bank: Bank
+      account: Bank Account
+      label: Label
+      address: Address
+      action: Action
+      add: Add
+      remove: Remove
+      default: Default
+    dividends:
+      agreement: Contract
+      agreement_accepted: Agreement accepted.
+      agreement_revoked: Agreement revoked.
+      intraday:
+        title: Intraday profit
+        time: Time
+        current: Current
+        previous: Volume
+        proft: Profit
+        no_data: There is no history data
+      daily:
+        title: Daily profit
+        time: Time
+        volume: Volume
+        proft: Profit
+        no_data: There is no history data
+    funds:
+      deposit: Deposit
+      withdraw: Withdraw
+      currency_name:
+        cny: CNY
+        btc: BTC
+        gio: GIO
+        ltc: LTC
+        eth: ETH
+        #funds
+      deposit_cny:
+        title: Chinese Yuan Deposit
+        desc: "To deposit via Bank transfer, please follow these steps:"
+        desc_item_1: "1. Submit the form to get the identification code."
+        desc_item_2: "2. Transfer the money to exchange's bank account. Please make sure your referral code was written on the form you fill in."
+        desc_item_3: "3. Your deposit will be confirmed as soon as the money is received."
+        attention: "Attention: The name of your bank account must be the same as your account name on our site, otherwise your deposit may fail."
+        from: From
+        to: To
+        deposit_name: Your Name
+        deposit_account: Deposit Account
+        add: Add
+        manage: Manage
+        amount: Deposit Amount
+        min_amount: At least 10 yuan
+        to_account: Account
+        to_name: Name
+        to_bank_name: Bank Name
+        opening_bank_name: Account where created
+        remark: 'Referral Code (Transfer identification code)'
+
+      deposit_btc:
+        title: BTC Deposit
+
+      deposit_gio:
+        title: GIO Deposit
+
+      deposit_ltc:
+        title: LTC Deposit
+
+      deposit_eth:
+        title: ETH Deposit
+
+      #deposit
+
+      deposit_coin:
+        address: Address
+        new_address: New Address
+        confirm_gen_new_address: You sure want to generate a new deposit address?
+        open-wallet: Please use your common wallet services, local wallet, mobile terminal or online wallet, select a payment and send.
+        detail: Please paste the address below in your wallet, and fill in the amount you want to deposit, then confirm and send.
+        scan-qr: Scanning QR code to Pay for In the mobile terminal wallet.
+        after_deposit: Once you complete sending, you can check the status of your new deposit below.
+        mining_to_deposit: Attention! If you’re using an exchange wallet (your deposite address) for mining coins - you must take care you transactions to be no more frequent, than 1 time per hour.
+          In other case exchange administration do not guarantee safety of your transactions.
+        generate-new: Generate new address
+
+      deposit_history:
+        title: Deposit History
+        number: '#'
+        identification: Identification Code
+        time: Time
+        txid: Transaction ID
+        confirmations: Confirmations
+        from: From
+        amount: Amount
+        state_and_action: "State/Action"
+        cancel: cancel
+        no_data: There is no history data
+
+        submitting: Submitting
+        cancelled: Cancelled
+        submitted: Submitted
+        accepted: Accepted
+        rejected: Rejected
+        checked: Checked
+        warning: Warning
+        suspect: Suspect
+
+      withdraw_cny:
+        title: Chinese Yuan Withdraw
+        intro: Select the bank to cash withdrawal amount and enter the account number and complete submission.
+        intro_2: Your bank account and name must be consistent with the real-name authentication name.
+        attention: "Working Hours: 9:00 - 18:00"
+        account_name: Account Name
+        withdraw_address: Withdraw Address
+        balance: Balance
+        withdraw_amount: Withdraw Amount
+        manage_withdraw: Manage Withdraw
+        fee_explain: About Fee
+        min: At least
+        withdraw_all: Withdraw all
+
+      withdraw_btc:
+        title: BTC Withdraw
+
+      withdraw_gio:
+        title: GIO Withdraw
+
+      withdraw_ltc:
+        title: LTC Withdraw
+
+      withdraw_eth:
+        title: ETH Withdraw
+
+      #withdraw
+
+      withdraw_coin:
+        intro: Please fill in the address and amount, then submit the form. It will be confirmed in 10 minutes
+        withdraw_limit_btc: Withdraw day limit is 2 for an unverified account.
+        withdraw_limit_gio: Withdraw day limit is 5 000 000 for an unverified account.
+        withdraw_limit_doge: Withdraw day limit is 1 000 000 for an unverified account.
+        withdraw_limit_ltc: Withdraw day limit is 1 000 for an unverified account.
+        withdraw_limit_eth: Withdraw day limit is 10 for an unverified account.
+        withdraw_limit_psd: Withdraw day limit is 200 000 for an unverified account.
+        withdraw_limit_phc: Withdraw day limit is 100 000 for an unverified account.
+        withdraw_limit_xgc: Withdraw day limit is 10 000 for an unverified account.
+        withdraw_limit_dev: Withdraw day limit is 50 000 for an unverified account.
+        withdraw_limit_pbs: Withdraw day limit is 20 000 for an unverified account.
+        withdraw_limit_din: Withdraw day limit is 20 000 for an unverified account.
+        withdraw_limit_adv: Withdraw day limit is 20 000 000 for an unverified account.
+        withdraw_limit_dv7: Withdraw day limit is 20 000 000 for an unverified account.
+        withdraw_limit_jew: Withdraw day limit is 20 000 for an unverified account.
+        withdraw_limit_argo: Withdraw day limit is 20 000 for an unverified account.
+        withdraw_limit_esco: Withdraw day limit is 20 000 for an unverified account.
+        withdraw_limit_neet: Withdraw day limit is 20 000 000 for an unverified account.
+        withdraw_limit_xylo: Withdraw day limit is 20 000 for an unverified account.
+        withdraw_limit_steep: Withdraw day limit is 5000000 for an unverified account.
+        withdraw_limit_bitg: Withdraw day limit is 20 000 for an unverified account.
+        withdraw_limit_crft: Withdraw day limit is 5000000 for an unverified account.
+        withdraw_limit_env: Withdraw day limit is 500000 for an unverified account.
+        withdraw_limit_xsg: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_nyc: Withdraw day limit is 5000000 for an unverified account.
+        withdraw_limit_zoc: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_btcz: Withdraw day limit is 50000000 for an unverified account.
+        withdraw_limit_ytn: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_yic: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_tlp: Withdraw day limit is 5000000 for an unverified account.
+        withdraw_limit_pwc: Withdraw day limit is 5000000 for an unverified account.
+        withdraw_limit_shnd: Withdraw day limit is 5000000000 for an unverified account.
+        withdraw_limit_lmn: Withdraw day limit is 5000000 for an unverified account.
+        withdraw_limit_kec: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_abs: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_suppo: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_linda: Withdraw day limit is 50000000 for an unverified account.
+        withdraw_limit_hight: Withdraw day limit is 500000 for an unverified account.
+        withdraw_limit_bls: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_tokc: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_elp: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_zex: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_rlc: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_lucky: Withdraw day limit is 5000 for an unverified account.
+        withdraw_limit_ich: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_mmb: Withdraw day limit is 500000 for an unverified account.
+        withdraw_limit_pnx: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_mix: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_kreds: Withdraw day limit is 500000 for an unverified account.
+        withdraw_limit_bkt: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_snx: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_giro: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_onex: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_pushi: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_vrt: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_zaca: Withdraw day limit is 5000 for an unverified account.
+        withdraw_limit_xhm: Withdraw day limit is 500000 for an unverified account.
+        withdraw_limit_xar: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_rupx: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_frm: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_men: Withdraw day limit is 5000000 for an unverified account.
+        withdraw_limit_mun: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_onemc: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_alp: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_zel: Withdraw day limit is 500000 for an unverified account.
+        withdraw_limit_amx: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_pew: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_fsc: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_sln: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_usx: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_bsx: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_eot: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_xap: Withdraw day limit is 500000 for an unverified account.
+        withdraw_limit_miac: Withdraw day limit is 500000 for an unverified account.
+        withdraw_limit_kc: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_arhm: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_olmp: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_onz: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_agn: Withdraw day limit is 10000 for an unverified account.
+        withdraw_limit_crz: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_enix: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_snc: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_quaz: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_scriv: Withdraw day limit is 2000000 for an unverified account.
+        withdraw_limit_ethf: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_arepa: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_sub1x: Withdraw day limit is 1000 for an unverified account.
+        withdraw_limit_cheese: Withdraw day limit is 5000000 for an unverified account.
+        withdraw_limit_jiyo: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_pyro: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_roe: Withdraw day limit is 50000 for an unverified account.
+        withdraw_limit_citr: Withdraw day limit is 5000 for an unverified account.
+        withdraw_limit_xen: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_edl: Withdraw day limit is 20000000 for an unverified account.
+        withdraw_limit_cru: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_ndc: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_zls: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_proton: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_krait: Withdraw day limit is 60000 for an unverified account.
+        withdraw_limit_aln: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_bcp: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_xmx: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_ida: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_unify: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_and: Withdraw day limit is 400000 for an unverified account.
+        withdraw_limit_vig: Withdraw day limit is 100000 for an unverified account.
+        withdraw_limit_peps: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_vizz: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_mon: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_lunex: Withdraw day limit is 10000 for an unverified account.
+        withdraw_limit_pruf: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_want: Withdraw day limit is 30000 for an unverified account.
+        withdraw_limit_mmo: Withdraw day limit is 100000 for an unverified account.
+        withdraw_limit_cbt: Withdraw day limit is 300000 for an unverified account.
+        withdraw_limit_xt3: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_btcf: Withdraw day limit is 60000 for an unverified account.
+        withdraw_limit_zcr: Withdraw day limit is 100000 for an unverified account.
+        withdraw_limit_slrc: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_aevo: Withdraw day limit is 400000 for an unverified account.
+        withdraw_limit_ppx: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_yoba: Withdraw day limit is 100000 for an unverified account.
+        withdraw_limit_nbx: Withdraw day limit is 100000 for an unverified account.
+        withdraw_limit_elli: Withdraw day limit is 40000 for an unverified account.
+        withdraw_limit_kgx: Withdraw day limit is 30000 for an unverified account.
+        withdraw_limit_akn: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_aka: Withdraw day limit is 30000 for an unverified account.
+        withdraw_limit_rvn: Withdraw day limit is 2000000 for an unverified account.
+        withdraw_limit_posq: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_radius: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_dsc: Withdraw day limit is 30000 for an unverified account.
+        withdraw_limit_varius: Withdraw day limit is 30000000 for an unverified account.
+        withdraw_limit_cyr: Withdraw day limit is 100000 for an unverified account.
+        withdraw_limit_bbrc: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_ikt: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_bsl: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_bff: Withdraw day limit is 20000000 for an unverified account.
+        withdraw_limit_toba: Withdraw day limit is 10000000 for an unverified account.
+        withdraw_limit_alps: Withdraw day limit is 300000 for an unverified account.
+        withdraw_limit_rlm: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_vzh: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_rco: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_cbc: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_exam: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_nah: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_slash: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_adr: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_htrc: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_ice: Withdraw day limit is 100000 for an unverified account.
+        withdraw_limit_ebs: Withdraw day limit is 100000 for an unverified account.
+        withdraw_limit_xeh: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_krm: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_cgur: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_vre: Withdraw day limit is 40000 for an unverified account.
+        withdraw_limit_her: Withdraw day limit is 40000 for an unverified account.
+        withdraw_limit_bzm: Withdraw day limit is 20000 for an unverified account.
+        withdraw_limit_itis: Withdraw day limit is 200000 for an unverified account.
+        withdraw_limit_hpp: Withdraw day limit is 100000 for an unverified account.
+        withdraw_limit_dsn: Withdraw day limit is 40000 for an unverified account.
+        withdraw_limit_demos: Withdraw day limit is 40000 for an unverified account.
+        withdraw_limit_jagar: Withdraw day limit is 5000000 for an unverified account.
+        #limit
+        label: Label
+        balance: Balance
+        amount: Amount
+        manage_withdraw: Manage Address
+        min: At least
+        withdraw_all: Withdraw all
+        fee_explain: About Fee
+
+      withdraw_history:
+        title: Withdraw History
+        number: Number
+        withdraw_time: Time
+        withdraw_account: Withdraw Account
+        withdraw_address: Address
+        withdraw_amount: Amount
+        actual_amount: Actual Amount
+        fee: Fee
+        miner_fee: Fee
+        state_and_action: "State/Action"
+        cancel: Cancel
+        no_data: There is no history data
+
+        submitting: Submitting
+        submitted: Submitted
+        rejected: Rejected
+        accepted: Accepted
+        suspect: Suspect
+        processing: Processing
+        coin_ready: Coin Ready
+        coin_done: Coin Done
+        done: Done
+        almost_done: Almost Done
+        canceled: Canceled
+        failed: Failed
+
+    auth:
+      please_active_two_factor: Please set google authenticator first.
+      submit: Submit
+      otp_placeholder: 6-digit password
+      google_app: Google Authenticator
+      sms: SMS Verification Messages
+      send_code: Send Code
+      send_code_alt: Resend in COUNT seconds
+      hints:
+        app: Google Authenticator will re-generate a new password every thirty seconds, please input timely.
+        sms: We'll send a text message to you phone with verify code.
+
+    markets:
+      market_list:
+        all: All Market
+        cny: CNY Market
+        btc: BTC Market
+        gio: GIO Market
+        doge: DOGE Market
+        ltc: LTC Market
+        eth: ETH Market
+        psd: PSD Market
+        phc: PHC Market
+        xgc: XGC Market
+        dev: DEV Market
+        pbs: PBS Market
+        din: DIN Market
+        adv: ADV Market
+        dv7: DV7 Market
+        jew: JEW Market
+        argo: ARGO Market
+        esco: ESCO Market
+        neet: NEET Market
+        xylo: XYLO Market
+        steep: STEEP Market
+        bitg: BITG Market
+        crft: CRFT Market
+        env: ENV Market
+        xsg: XSG Market
+        nyc: NYC Market
+        zoc: ZOC Market
+        btcz: BTCZ Market
+        ytn: YTN Market
+        yic: YIC Market
+        tlp: TLP Market
+        pwc: PWC Market
+        shnd: SHND Market
+        lmn: LMN Market
+        kec: KEC Market
+        abs: ABS Market
+        suppo: SUPPO Market
+        linda: LINDA Market
+        hight: HIGHT Market
+        bls: BLS Market
+        tokc: TOKC Market
+        elp: ELP Market
+        zex: ZEX Market
+        rlc: RLC Market
+        lucky: LUCKY Market
+        ich: ICH Market
+        mmb: MMB Market
+        pnx: PNX Market
+        mix: MIX Market
+        kreds: KREDS Market
+        bkt: BKT Market
+        snx: SNX Market
+        giro: GIRO Market
+        onex: ONEX Market
+        pushi: PUSHI Market
+        vrt: VRT Market
+        zaca: ZACA Market
+        xhm: XHM Market
+        xar: XAR Market
+        rupx: RUPX Market
+        frm: FRM Market
+        men: MEN Market
+        mun: MUN Market
+        onemc: ONEMC Market
+        alp: ALP Market
+        zel: ZEL Market
+        amx: AMX Market
+        pew: PEW Market
+        fsc: FSC Market
+        sln: SLN Market
+        usx: USX Market
+        bsx: BSX Market
+        eot: EOT Market
+        xap: XAP Market
+        miac: MIAC Market
+        kc: KC Market
+        arhm: ARHM Market
+        olmp: OLMP Market
+        onz: ONZ Market
+        agn: AGN Market
+        crz: CRZ Market
+        enix: ENIX Market
+        snc: SNC Market
+        quaz: QUAZ Market
+        scriv: SCRIV Market
+        ethf: ETHF Market
+        arepa: AREPA Market
+        sub1x: SUB1X Market
+        cheese: CHEESE Market
+        jiyo: JIYO Market
+        pyro: PYRO Market
+        roe: ROE Market
+        citr: CITR Market
+        xen: XEN Market
+        edl: EDL Market
+        cru: CRU Market
+        ndc: NDC Market
+        zls: ZLS Market
+        proton: PROTON Market
+        krait: KRAIT Market
+        aln: ALN Market
+        bcp: BCP Market
+        xmx: XMX Market
+        ida: IDA Market
+        unify: UNIFY Market
+        and: AND Market
+        vig: VIG Market
+        peps: PEPS Market
+        vizz: VIZZ Market
+        mon: MON Market
+        lunex: LUNEX Market
+        pruf: PRUF Market
+        want: WANT Market
+        mmo: MMO Market
+        cbt: CBT Market
+        xt3: XT3 Market
+        btcf: BTCF Market
+        zcr: ZCR Market
+        slrc: SLRC Market
+        aevo: AEVO Market
+        ppx: PPX Market
+        yoba: YOBA Market
+        nbx: NBX Market
+        elli: ELLI Market
+        kgx: KGX Market
+        akn: AKN Market
+        aka: AKA Market
+        rvn: RVN Market
+        posq: POSQ Market
+        radius: RADIUS Market
+        dsc: DSC Market
+        varius: VARIUS Market
+        cyr: CYR Market
+        bbrc: BBRC Market
+        ikt: IKT Market
+        bsl: BSL Market
+        bff: BFF Market
+        toba: TOBA Market
+        alps: ALPS Market
+        rlm: RLM Market
+        vzh: VZH Market
+        rco: RCO Market
+        cbc: CBC Market
+        exam: EXAM Market
+        nah: NAH Market
+        slash: SLASH Market
+        adr: ADR Market
+        htrc: HTRC Market
+        ice: ICE Market
+        ebs: EBS Market
+        xeh: XEH Market
+        krm: KRM Market
+        cgur: CGUR Market
+        vre: VRE Market
+        her: HER Market
+        bzm: BZM Market
+        itis: ITIS Market
+        hpp: HPP Market
+        dsn: DSN Market
+        demos: DEMOS Market
+        jagar: JAGAR Market
+        #market
